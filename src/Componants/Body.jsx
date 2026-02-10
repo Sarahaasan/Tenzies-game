@@ -88,7 +88,7 @@ useEffect ( () => {
         <ToastContainer />
         {/* instructions  */}
         <h1 className="title text-6xl font-bold">Tenzies</h1>
-            <p className="instructions text-3xl">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
+            <p className="instructions md:text-3xl">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
         {/* die */}
                 <div className="dice-container">
              {
