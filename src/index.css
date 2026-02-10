@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #211467;
+    padding: 20px;;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+.roll-dice:disabled
+{
+    opacity: 0.5;
+    cursor: not-allowed;
+
+}
